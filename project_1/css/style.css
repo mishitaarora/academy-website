@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/books-geb5593462_1280.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    display: block;
+    width: 115px;
+    margin: auto;
+}
+
+.left div {
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 56%;
+    margin: 12px auto;
+    /* border: 2px solid blue; */
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 50px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color:#aba1a1;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 13px;
+    top: 12px;
+    /* border: 2px solid green; */
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 82px;
+    margin: 4px auto;
+    padding: 2px 2px;
+}
+
+.btn:hover {
+    background-color: rgb(51, 50, 50);
+}
+.container {
+border: 2px solid black;
+
+margin: 70px auto;
+padding: 12px 50px;
+/* background-color:rgb(174 167 181 / 23%); */
+/* background-image: url(books-geb5593462_1280.jpg);
+background-blend-mode: lighten; */
+/* background-size: cover; */
+position: relative;
+width: 45%;
+border-radius: 28px;
+/* background-color: rgb(255, 254, 254); */
+/* background-color: rgba(0,0,0, 0.8); */
+
+
+}
+.container::before{
+background-image: url(../images/books-geb5593462_1280.jpg);
+/* border: 2px solid white; */
+background-size: cover;
+content: '';
+position: absolute;
+inset: 0;
+opacity: 0.3;
+
+border-radius: 28px;
+/* border: 2px solid white; */
+}
+
+h1{
+margin : 0px;
+text-align: center;
+isolation: isolate;
+}
+.container h2{
+font-weight: bold;
+text-align: center;
+isolation: isolate;
+}
+
+.form-group input{
+text-align: center;
+display: block;
+width: 44%;
+padding :6px 6px;
+font-size: 18px ;
+margin : 3px auto;
+border: 1px solid black;
+border-radius: 10px;
+font-family: 'Ubuntu', sans-serif;
+isolation: isolate;
+
+}
+.container button{
+isolation: isolate;
+}
